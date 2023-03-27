@@ -1,3 +1,7 @@
+<hr>
+This is a rollback version of this notebook and serves as a temporary fix for the gradio update.
+<hr>
+
 # fast-stable-diffusion Notebooks, AUTOMATIC1111 + DreamBooth
 Colab & Runpod & Paperspace adaptations AUTOMATIC1111 Webui and Dreambooth.
  
