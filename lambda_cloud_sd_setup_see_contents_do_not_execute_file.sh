@@ -98,7 +98,8 @@ wget https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/co
 cd ~/stable-diffusion-webui/models/Stable-diffusion
 wget "https://civitai.com/api/download/models/15236"
 mv "15236" Deliberate.safetensors
-#wget https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
+# Install the real v1.5 SD model
+wget https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt
 
 # >>CONFIGURE<< VAE 
 #	>> cd ~/stable-diffusion-webui/models/VAE
