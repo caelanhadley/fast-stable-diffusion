@@ -4,21 +4,21 @@
 # For all of the following steps open a CLI within a jupyter notebook (My reccomendation)
 # Otherwise if you manually ssh into the Lambda server from a local CLI this should work the same.
 
-# 1. Manually Run These 2 Lines in a CLI in the jupyter notebook.
+# 1. Manually Run These 2 Lines in a Lambda conencted CLI.
 sudo apt install wget git python3 python3-venv
 bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh)
 
 # 2. Let it run the full setup of the webui then once it has launched fully and
-# 	you see the local ip 127.0.0.1 or something similar press Ctrl+C to force
-# 	the program to close. There is a bunch more stuff todo but since I have made
-# 	this script all you have to do is copy and paste one time.
+# 	you see "Startup time: ..." press Ctrl+C to force the program to close. 
+#   There is a bunch more stuff todo but since I have made
+# 	this script all you have to do is copy and paste the rest once.
 
-# 3. Run all the remaining lines after completing the instructions above.
+# 3. Configure
 #
 # > Look for Areas that have >>CONFIGURE<<. In them I tell you how to configure the models
 # > that you want to include such as checkpoints, LoRa's, embeddings, controlnet, etc.
 #
-# After configuring to your liking copy and paste the entire rest of this script into the CLI:
+# 4. After configuring to your liking copy and paste the entire rest of this script into the CLI:
 cd ~/stable-diffusion-webui
 git checkout "a9eab23"
 git reset --hard "a9eab23"
