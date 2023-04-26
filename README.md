@@ -1,6 +1,6 @@
 <hr>
 
-## This is a rollback version of this notebook and serves as a temporary fix for the gradio update.
+## This is a rollback version of TheLastBen's notebook and serves as a temporary fix for the gradio update.
 ## Now includes a Lambda Cloud Implementation.
 
 <hr>
