@@ -20,7 +20,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusio
 #
 # After configuring to your liking copy and paste the entire rest of this script into the CLI:
 cd ~/stable-diffusion-webui
-git checkoutn "a9eab23"
+git checkout "a9eab23"
 git reset --hard "a9eab23"
 pip install -r requirements.txt
 pip install gradio==3.16.2
@@ -127,6 +127,5 @@ mv "8042" AdventureDiffusion.pt
 cd ~/stable-diffusion-webui
 pip install rich
 
-# This is the start command. Run this every subsequent time you need to reboot the webui.
-# After everything above has run you only need to execute this line to restart it:
+# After everything above has this starts the webui:
 python webui.py --share --api --disable-safe-unpickle --enable-insecure-extension-access --no-download-sd-model --no-half-vae --xformers --disable-console-progressbars
